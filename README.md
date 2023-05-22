@@ -1,5 +1,8 @@
 # HydroBot - Intelligent Water Drinking Reminder
 
+![kobu-agency-TWIRIAizZFU-unsplash](https://github.com/ylp1455/HydroBot-Intelligent-Water-Drinking-Reminder/assets/115799462/13dfa273-fd9e-48c2-b94d-a68caede4e01)
+
+
 HydroBot is a simple Python program that reminds you to drink water at regular intervals. Staying hydrated is important for maintaining good health, and this program helps you establish a healthy water-drinking habit.
 
 ## Features
