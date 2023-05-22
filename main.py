@@ -1,11 +1,21 @@
 import tkinter as tk
 import pyttsx3
 import threading
+import random
+
+# List of creative reminder messages
+reminder_messages = [
+    "Time to drink water! Stay hydrated and healthy!",
+    "Don't forget to take a water break! Your body will thank you.",
+    "Hydration is key! Grab a glass of water and reenergize yourself.",
+    "A gentle reminder to drink some water. Your health is worth it!",
+    "Stay refreshed and drink some water. It's good for your mind and body.",
+]
 
 # Function to speak the reminder message
 def speak_reminder():
     engine = pyttsx3.init()
-    message = "Time to drink water! Stay hydrated and healthy!"
+    message = random.choice(reminder_messages)  # Randomly select a message
     engine.say(message)
     engine.runAndWait()
 
